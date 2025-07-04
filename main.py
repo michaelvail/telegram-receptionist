@@ -76,7 +76,7 @@ def get_user_context(user_id):
     user_id_str = str(user_id)
     if user_id_str not in conversations:
         strategy = random.choice(load_strategies())
-        strategy += "\n\nYour goal is to keep the conversation going. Be attentive to what the other person is saying. You must always respond in a friendly and engaging manner, regardless of the topic. Try to sound human without overusing emojis. Vary the length of your replies, but always keep them under 200 characters."
+        strategy += "\n\nKeep the conversation going and be attentive to what the other person is saying. You must always respond in a friendly and engaging manner. Try to sound human; emojis are good, but don't overuse them. Vary the length of your replies, but you must *strictly* keep them under 200 characters."
         conversations[user_id_str] = {
             'strategy': strategy,
             'messages': [{"role": "system", "content": strategy}]
@@ -92,7 +92,7 @@ def get_ai_reply(messages):
     response = ai_client.chat.completions.create(
         model="mistral",
         messages=messages,
-        temperature=0.7
+        temperature=1.2
     )
     return response.choices[0].message.content
 

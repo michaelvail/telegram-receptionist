@@ -14,7 +14,7 @@ This is a friendly AI-powered receptionist bot for Telegram. It uses [Ollama](ht
 - Python 3.8+
 - Telegram API credentials
 - [Ollama](https://ollama.com/) installed and running locally
-- A model like `mistral` pulled via Ollama
+- The `mistral` model pulled via Ollama
 
 ## Setup
 
