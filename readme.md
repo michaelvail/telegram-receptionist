@@ -16,7 +16,7 @@ This is a friendly AI-powered receptionist bot for Telegram. It uses [Ollama](ht
 - [Ollama](https://ollama.com/) installed and running locally
 - The `mistral` model pulled via Ollama
 
-## Setup
+## Setup (Windows)
 
 ### Get Telegram API credentials
 1. Go to https://my.telegram.org and sign in.
@@ -27,6 +27,6 @@ This is a friendly AI-powered receptionist bot for Telegram. It uses [Ollama](ht
 2. Open a command prompt and run `ollama pull mistral`.
 3. Run `ollama run mistral`.
 
-### Installation (Windows)
+### Installation
 1. Download the latest release `.exe` from Releases and run it.
 2. Follow the instructions.
