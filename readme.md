@@ -30,3 +30,7 @@ This is a friendly AI-powered receptionist bot for Telegram. It uses [Ollama](ht
 ### Installation (Windows)
 1. Download the latest release `.exe` from Releases and run it.
 2. Follow the instructions.
+
+---
+
+### If this project was valuable to you, please feel free to [fund](https://ko-fi.com/michaelvail) my matcha addiction.
