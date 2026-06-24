@@ -33,4 +33,4 @@ This is a friendly AI-powered receptionist bot for Telegram. It uses [Ollama](ht
 
 ---
 
-### If this project was valuable to you, please feel free to [fund](https://ko-fi.com/michaelvail) my matcha addiction.
+### If this project was valuable to you, please feel free to [fund](https://ko-fi.com/michaelvail) my matcha addiction 🍵
